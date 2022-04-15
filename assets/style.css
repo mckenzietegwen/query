@@ -1,4 +1,8 @@
 /* This is where your CSS lives. */
 p {
 	color: tomato;
+	font-family: 'Whyte Inktrap';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 50px;
 }

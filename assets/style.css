@@ -1,8 +1,27 @@
-/* This is where your CSS lives. */
+#content, html, body {
+    height: 100%;
+}
+
 p {
 	color: tomato;
 	font-family: 'Whyte Inktrap';
 	font-weight: bold;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 25px;
+	line-height: 95%;
+}
+
+#left {
+    float: left;
+    width: 50%;
+    background: red;
+    height: 100%;
+    overflow: scroll;
+}
+#right {
+    float: left;
+    width: 50%;
+    background: blue;
+    height: 100%;
+    overflow: scroll;
 }

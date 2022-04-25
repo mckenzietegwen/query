@@ -60,19 +60,24 @@ video {
   font-style: normal;
   font-size: 80px;
   line-height: 95%;
+  padding: 25px;
 }
 
 span {
-  font-weight: 200;
-  min-width: 25vw;
-  padding-right: 20px;
-  text-align: right;
+  font-weight: 300;
+
 
 }
 /* video */
 
 p {
 	font-family: 'Helvetica Neue';
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-style: straight;
+  text-decoration-color: red;
 }
 
 

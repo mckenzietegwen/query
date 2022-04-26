@@ -58,7 +58,7 @@ video {
   font-weight: 500;
   font-style: normal;
   font-size: 80px;
-  line-height: 90%;
+  line-height: 95%;
   padding: 25px;
 }
 
@@ -74,11 +74,15 @@ p {
 }
 
 u {
-  text-decoration-line: underline;
-  text-decoration-style: straight;
-  text-decoration-color: rgb(235,51,35);
+  background: white;
+  background-color: rgb(235,51,35);
+  text-align: center;
+  vertical-align: middle;
 }
 
+a {
+  color: white;
+}
 
 #left {
     float: left;
@@ -87,6 +91,7 @@ u {
     height: 100%;
     overflow: scroll;
 }
+
 #right {
     float: left;
     width: 50%;

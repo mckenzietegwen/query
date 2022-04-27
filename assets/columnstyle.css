@@ -31,6 +31,7 @@
     height: 100%;
     overflow: scroll;
     padding: 25px;
+    color: #767676;
 }
 
 span {
@@ -57,8 +58,9 @@ hr {
 b {
   font-family: "Apple Chancery";
   font-style: italic;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 10%;
+  /* color: rgb(226,173,84) */
 }
 
 u {

@@ -1,7 +1,7 @@
 #content, html, body {
     height: 100%;
     hyphens: none;
-    font-family: "Helvetica Neue";
+    font-family: 'Helvetica Neue';
 }
 
 #splash {
@@ -19,6 +19,9 @@
     /* background: red; */
     height: 100%;
     overflow: scroll;
+    padding: 25px;
+    background: #4865ab;
+    color: #fae6c6;
 }
 
 #right {
@@ -27,4 +30,29 @@
     /* background: blue; */
     height: 100%;
     overflow: scroll;
+    padding: 25px;
+}
+
+span {
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+p {
+font-weight: 500;
+font-size: 20px;
+}
+
+em {
+  font-style: italic;
+}
+
+hr {
+  border: 1px solid;
+  margin-top: 3rem;
+}
+
+#test {
+  border: 2px solid;
 }

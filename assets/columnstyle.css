@@ -57,7 +57,7 @@ hr {
 b {
   font-family: "Apple Chancery";
   font-style: italic;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 10%;
 }
 
@@ -71,6 +71,9 @@ u {
   border: 2px solid;
   border-radius: 30px;
   padding: 10px;
+  background: #db543c;
+  display: inline-block;
+  justify-content: center;
 }
 
 img {
@@ -80,4 +83,8 @@ img {
 
 #ND {
   max-width: 15px;
+}
+
+#supreme {
+  max-width: 35px;
 }

@@ -54,7 +54,12 @@ hr {
 }
 
 #mainquestion {
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 30px;
   padding: 10px;
+}
+
+img {
+  display: inline;
+  max-width: 25px;
 }

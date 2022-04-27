@@ -53,6 +53,8 @@ hr {
   margin-top: 3rem;
 }
 
-#test {
-  border: 2px solid;
+#mainquestion {
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 10px;
 }

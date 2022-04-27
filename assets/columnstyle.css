@@ -46,11 +46,25 @@ font-size: 20px;
 
 em {
   font-style: italic;
+  color: #f0ac3d;
 }
 
 hr {
   border: 1px solid;
   margin-top: 3rem;
+}
+
+b {
+  font-family: "Apple Chancery";
+  font-style: italic;
+  font-size: 20px;
+  line-height: 10%;
+}
+
+u {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #db543c;
 }
 
 #mainquestion {
@@ -62,4 +76,8 @@ hr {
 img {
   display: inline;
   max-width: 25px;
+}
+
+#ND {
+  max-width: 15px;
 }

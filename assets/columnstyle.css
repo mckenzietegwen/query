@@ -95,6 +95,7 @@ img {
 
 .tooltip {
   position:relative;
+  font-size: 17px;
   /* border-bottom:1px dashed #000; */
 }
 
@@ -114,7 +115,7 @@ img {
   width:200px;
   padding:10px;
   border-radius:10px;
-  background:#000;
+  background:rgb(226,173,84);
   color: #fff;
   text-align:center;
 
@@ -132,11 +133,23 @@ img {
   transform:translateY(-50%);
 
   /* arrow */
-  border:10px solid #000;
-  border-color: transparent black transparent transparent;
+  border:10px solid rgb(226,173,84);
+  border-color: transparent rgb(226,173,84) transparent transparent;
 
   display:none;
 }
 .tooltip:hover:before, .tooltip:hover:after {
   display:block;
+}
+
+/* blinking */
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }

@@ -22,6 +22,7 @@
     padding: 25px;
     background: #4865ab;
     color: #fae6c6;
+    position: relative;
 }
 
 #left {
@@ -44,11 +45,12 @@
 #right {
     float: left;
     width: 50%;
-    /* background: blue; */
+    background: white;
     height: 100%;
     overflow: scroll;
     padding: 25px;
     color: #767676;
+    position: relative;
 }
 
 span {
@@ -228,9 +230,12 @@ img.flier {
 	}
 }
 
-/* .vertical-line{
-    display: relative;
-    border: 1px solid #ccc;
-    margin: 0 20px;
-    height: 100vh;
-} */
+video {
+  /* object-fit: cover; */
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

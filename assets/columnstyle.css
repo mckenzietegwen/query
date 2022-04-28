@@ -16,7 +16,6 @@
 #left {
     float: left;
     width: 50%;
-    /* background: red; */
     height: 100%;
     overflow: scroll;
     padding: 25px;
@@ -26,7 +25,7 @@
 }
 
 #left {
-  opacity: 100%;
+  opacity: 0%;
 }
 
 #left:hover {
@@ -71,6 +70,7 @@ em {
   padding: 3px;
   margin: 3px;
   border-radius: 20px;
+  line-height: 2rem;
 }
 
 hr {

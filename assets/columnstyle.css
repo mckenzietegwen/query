@@ -26,7 +26,7 @@
 }
 
 #left {
-  opacity: 0%;
+  opacity: 100%;
 }
 
 #left:hover {
@@ -67,6 +67,10 @@ font-size: 20px;
 em {
   font-style: italic;
   color: #f0ac3d;
+  border: 2px dashed #f0ac3d;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 20px;
 }
 
 hr {
@@ -82,11 +86,11 @@ b {
   /* color: rgb(226,173,84) */
 }
 
-u {
+/* u {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #db543c;
-}
+} */
 
 #mainquestion {
   border: 2px solid;

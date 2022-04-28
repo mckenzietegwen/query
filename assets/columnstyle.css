@@ -227,3 +227,10 @@ img.flier {
 		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
 	}
 }
+
+/* .vertical-line{
+    display: relative;
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    height: 100vh;
+} */

@@ -3,111 +3,125 @@ section {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
 }
 
 div {
   font-family: "Helvetica Neue";
-  /* padding: 7px; */
-  justify-content: center;
-  border: 1px solid #767676;
+  line-height: 1.5;
+  padding: 0 10px;
 }
 
 div:first-child {
   background-color: #db543c;
   grid-column: 1 / span 2;
-  text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 div:nth-child(2) {
-  background-color: green;
+  background-color: #4865ab;
   grid-column: 1;
 }
 
 div:nth-child(3) {
-  background-color: pink;
   grid-column: 2;
 }
 
 div:nth-child(4) {
   grid-column: 1 / span 2;
+  border-top: 1px solid #767676;
 }
 
 div:nth-child(5) {
   background-color: #db543c;
   grid-column: 1 / span 2;
   text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 div:nth-child(6) {
-  background-color: green;
+  background-color: #4865ab;
   grid-column: 1;
 }
 
 div:nth-child(7) {
-  background-color: pink;
   grid-column: 2;
 }
 
 div:nth-child(8) {
   grid-column: 1 / span 2;
+  border-top: 1px solid #767676;
 }
 
 div:nth-child(9) {
   background-color: #db543c;
   grid-column: 1 / span 2;
   text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 div:nth-child(10) {
-  background-color: green;
+  background-color: #4865ab;
   grid-column: 1;
 }
 
 div:nth-child(11) {
-  background-color: pink;
   grid-column: 2;
 }
 
 div:nth-child(12) {
   grid-column: 1 / span 2;
+  border-top: 1px solid #767676;
 }
 
 div:nth-child(13) {
   background-color: #db543c;
   grid-column: 1 / span 2;
   text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 div:nth-child(14) {
-  background-color: green;
+  background-color: #4865ab;
   grid-column: 1;
 }
 
 div:nth-child(15) {
-  background-color: pink;
   grid-column: 2;
 }
 
 div:nth-child(16) {
   grid-column: 1 / span 2;
+  border-top: 1px solid #767676;
 }
 
 div:nth-child(17) {
   background-color: #db543c;
   grid-column: 1 / span 2;
   text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 div:nth-child(18) {
-  background-color: green;
+  background-color: #4865ab;
   grid-column: 1;
 }
 
 div:nth-child(19) {
-  background-color: pink;
   grid-column: 2;
 }
 
 div:nth-child(20) {
   grid-column: 1 / span 2;
+  border-top: 1px solid #767676;
 }

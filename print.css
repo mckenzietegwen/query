@@ -1,35 +1,21 @@
 section {
-  background-color: blue;
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-  /* grid-template-areas:
-  "q1"
-  "q1fun q1boring"
-  "q1debrief"
 
-  "q2"
-  "q2fun q2boring"
-  "q2debrief"
-
-  "q3"
-  "q3fun q3boring"
-  "q3debrief"
-
-  "q4"
-  "q4fun q4boring"
-  "q4debrief"
-
-  "q5"
-  "q5fun q5boring"
-  "q5debrief";
-} */
+div {
+  font-family: "Helvetica Neue";
+  /* padding: 7px; */
+  justify-content: center;
+  border: 1px solid #767676;
+}
 
 div:first-child {
-  background-color: crimson;
+  background-color: #db543c;
   grid-column: 1 / span 2;
+  text-align: center;
 }
 
 div:nth-child(2) {
@@ -43,13 +29,13 @@ div:nth-child(3) {
 }
 
 div:nth-child(4) {
-  background-color: orange;
   grid-column: 1 / span 2;
 }
 
 div:nth-child(5) {
-  background-color: crimson;
+  background-color: #db543c;
   grid-column: 1 / span 2;
+  text-align: center;
 }
 
 div:nth-child(6) {
@@ -63,13 +49,13 @@ div:nth-child(7) {
 }
 
 div:nth-child(8) {
-  background-color: orange;
   grid-column: 1 / span 2;
 }
 
 div:nth-child(9) {
-  background-color: crimson;
+  background-color: #db543c;
   grid-column: 1 / span 2;
+  text-align: center;
 }
 
 div:nth-child(10) {
@@ -83,13 +69,13 @@ div:nth-child(11) {
 }
 
 div:nth-child(12) {
-  background-color: orange;
   grid-column: 1 / span 2;
 }
 
 div:nth-child(13) {
-  background-color: crimson;
+  background-color: #db543c;
   grid-column: 1 / span 2;
+  text-align: center;
 }
 
 div:nth-child(14) {
@@ -103,13 +89,13 @@ div:nth-child(15) {
 }
 
 div:nth-child(16) {
-  background-color: orange;
   grid-column: 1 / span 2;
 }
 
 div:nth-child(17) {
-  background-color: crimson;
+  background-color: #db543c;
   grid-column: 1 / span 2;
+  text-align: center;
 }
 
 div:nth-child(18) {
@@ -123,6 +109,5 @@ div:nth-child(19) {
 }
 
 div:nth-child(20) {
-  background-color: orange;
   grid-column: 1 / span 2;
 }

@@ -1,0 +1,24 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "q1"
+  "q1fun q1boring"
+  "q1debrief"
+
+  "q2"
+  "q2fun q2boring"
+  "q2debrief"
+
+  "q3"
+  "q3fun q3boring"
+  "q3debrief"
+
+  "q4"
+  "q4fun q4boring"
+  "q4debrief"
+
+  "q5"
+  "q5fun q5boring"
+  "q5debrief"
+}

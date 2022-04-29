@@ -95,6 +95,7 @@ span {
   background-color: #4865ab;
   padding: 5px;
   border-radius: 20px;
+  transition: 0.3s;
 }
 
 #button:hover{

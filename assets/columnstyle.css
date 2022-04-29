@@ -254,18 +254,18 @@ video {
 
 @media print {
 video, #content, #right, #left, #splash, span  {
-  display: none !important;
+  display: none;
 }
 
 #hidden {
-  display: inline-block !important;
+  display: inline-block;
 }
 #print {
-  width: 100vw !important;
-  height: 100vh !important;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  grid-gap: .5rem !important;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
 }
 
 div {
@@ -309,7 +309,7 @@ div:nth-child(4) {
 }
 
 div:nth-child(5) {
-  background-color: #db543c;
+  /* background-color: #db543c; */
   grid-column: 1 / span 2;
   text-align: center;
   display: flex;

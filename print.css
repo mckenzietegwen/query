@@ -1,7 +1,11 @@
 section {
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:
+}
+  /* grid-template-areas:
   "q1"
   "q1fun q1boring"
   "q1debrief"
@@ -20,5 +24,105 @@ section {
 
   "q5"
   "q5fun q5boring"
-  "q5debrief"
+  "q5debrief";
+} */
+
+div:first-child {
+  background-color: crimson;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(2) {
+  background-color: green;
+  grid-column: 1;
+}
+
+div:nth-child(3) {
+  background-color: pink;
+  grid-column: 2;
+}
+
+div:nth-child(4) {
+  background-color: orange;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(5) {
+  background-color: crimson;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(6) {
+  background-color: green;
+  grid-column: 1;
+}
+
+div:nth-child(7) {
+  background-color: pink;
+  grid-column: 2;
+}
+
+div:nth-child(8) {
+  background-color: orange;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(9) {
+  background-color: crimson;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(10) {
+  background-color: green;
+  grid-column: 1;
+}
+
+div:nth-child(11) {
+  background-color: pink;
+  grid-column: 2;
+}
+
+div:nth-child(12) {
+  background-color: orange;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(13) {
+  background-color: crimson;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(14) {
+  background-color: green;
+  grid-column: 1;
+}
+
+div:nth-child(15) {
+  background-color: pink;
+  grid-column: 2;
+}
+
+div:nth-child(16) {
+  background-color: orange;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(17) {
+  background-color: crimson;
+  grid-column: 1 / span 2;
+}
+
+div:nth-child(18) {
+  background-color: green;
+  grid-column: 1;
+}
+
+div:nth-child(19) {
+  background-color: pink;
+  grid-column: 2;
+}
+
+div:nth-child(20) {
+  background-color: orange;
+  grid-column: 1 / span 2;
 }

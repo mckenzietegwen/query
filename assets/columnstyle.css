@@ -309,7 +309,7 @@ div:nth-child(4) {
 }
 
 div:nth-child(5) {
-  /* background-color: #db543c; */
+  background-color: #db543c;
   grid-column: 1 / span 2;
   text-align: center;
   display: flex;
